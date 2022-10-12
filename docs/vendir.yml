@@ -4,9 +4,15 @@ minimumRequiredVersion: 0.8.0
 directories:
 
   #! Product release files
-  - path: reveal.js-4.3.1
+  - path: reveal.js
     contents:
-      - path: .
+      - path: dist
         git:
           url: https://github.com/hakimel/reveal.js
           ref: 4.3.1
+        newRootPath: dist
+      - path: plugin
+        git:
+          url: https://github.com/hakimel/reveal.js
+          ref: 4.3.1
+        newRootPath: plugin
