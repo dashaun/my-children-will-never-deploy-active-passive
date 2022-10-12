@@ -27,7 +27,7 @@ Notes:
 
 ---
 
-![CRDB](/images/crdb.png)
+![CRDB](images/crdb.png)
 
 Notes:
 - Conflict Free Data Base
@@ -38,4 +38,4 @@ Notes:
 
 ---
 
-![Pattern](/images/pattern.png)
+![Pattern](images/pattern.png)

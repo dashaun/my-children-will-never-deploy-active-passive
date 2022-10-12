@@ -1,5 +1,5 @@
 
-![it could happen to anyone of us](/images/googleoutage.png)
+![it could happen to anyone of us](images/googleoutage.png)
 
 Notes:
 - Did any of you see this last night?
@@ -29,7 +29,7 @@ Notes:
 
 ---
 
-![old-ways](/images/replication.png)
+![old-ways](images/replication.png)
 
 Notes:
 - Let me explain
@@ -39,7 +39,7 @@ Notes:
 
 ---
 
-![leader-follower](/images/leader-follower.png)
+![leader-follower](images/leader-follower.png)
 
 Notes:
 - In databases
@@ -49,7 +49,7 @@ Notes:
 
 ---
 
-![leader-follower](/images/leader-follower2.png)
+![leader-follower](images/leader-follower2.png)
 
 Notes:
 - This can also be beneficial
@@ -66,7 +66,7 @@ should be in different zones
 
 ---
 
-![active-passive](/images/active-passive.png)
+![active-passive](images/active-passive.png)
 
 Notes:
 - At a higher level, active-passive can look like this
@@ -76,7 +76,7 @@ Notes:
 
 ---
 
-![active-passive](/images/active-passive-2.png)
+![active-passive](images/active-passive-2.png)
 
 Notes:
 - If something goes wrong in the primary

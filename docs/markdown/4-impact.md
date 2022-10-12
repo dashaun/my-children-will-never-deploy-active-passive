@@ -56,4 +56,4 @@ on infrastructure that isn't being used
 
 ---
 
-![better-way](/images/better.png)
+![better-way](images/better.png)

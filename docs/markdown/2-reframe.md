@@ -26,7 +26,7 @@ Notes:
 
 ---
 
-![World Map](/images/world.png)
+![World Map](images/world.png)
 
 Notes:
 - Companies in 1-region

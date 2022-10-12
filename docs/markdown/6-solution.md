@@ -20,7 +20,7 @@ Notes:
 
 ---
 
-![Pattern](/images/whynot5.png)
+![Pattern](images/whynot5.png)
 
 ---
 
