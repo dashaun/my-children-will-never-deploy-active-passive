@@ -1,0 +1,6 @@
+locals {
+  regions = [
+    "uksouth",
+    "canadacentral"
+  ]
+}

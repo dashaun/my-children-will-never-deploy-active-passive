@@ -1,0 +1,12 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.8.0
+directories:
+
+  #! Product release files
+  - path: vendir/reveal.js-4.3.1
+    contents:
+      - path: .
+        git:
+          url: https://github.com/hakimel/reveal.js
+          ref: 4.3.1
