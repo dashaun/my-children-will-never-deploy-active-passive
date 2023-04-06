@@ -1,1 +1,1 @@
-# My Childer Will Never Deploy Active-Passive
+# My Children Will Never Deploy Active-Passive
