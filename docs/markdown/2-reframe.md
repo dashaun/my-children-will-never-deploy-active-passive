@@ -1,8 +1,4 @@
-## Resilience > Robustness
-
-Notes:
-- Even taking updates
-- Ryan Bergman is going to talk about zero-downtime updates
+## Level Set
 
 ---
 
@@ -14,15 +10,7 @@ A Region is set of collaborating Zones (datacenters) grouped together based on t
 
 ---
 
-- Laptop
-- Single Datacenter
-- Single Availability Zone
-- Single Region
-
-Notes:
-- Failures happen
-- Startup life
-- You have to start somewhere
+![World Map](images/Zone.png)
 
 ---
 
@@ -40,3 +28,10 @@ Notes:
 ```markdown
 Latency is the new downtime.
 ```
+
+---
+
+## Resilience > Robustness
+
+Notes:
+- Even taking updates

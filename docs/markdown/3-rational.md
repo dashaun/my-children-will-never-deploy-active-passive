@@ -1,31 +1,11 @@
-
-![it could happen to anyone of us](images/googleoutage.png)
-
-Notes:
-- Did any of you see this last night?
-- It could happen to any one of us
+- Terraform <!-- .element: class="fragment" -->
+- Azure Spring Apps Enterprise <!-- .element: class="fragment" -->
+- Azure Cache for Redis Enterprise <!-- .element: class="fragment" -->
+- Azure Front Door <!-- .element: class="fragment" -->
 
 ---
 
-## Google Outage Yesterday
-
-- Council Bluffs IA          <!-- .element: class="fragment" data-fragment-index="1" -->
-- Cascading Effects          <!-- .element: class="fragment" data-fragment-index="2" -->
-
-Notes:
-- Electrical Incident
-- In one datacenter
-
----
-
-```
-"My children will never deploy active-passive."
-
-- DaShaun Carter
-```
-
-Notes:
-- What does that even mean?
+## Terraform HCL
 
 ---
 

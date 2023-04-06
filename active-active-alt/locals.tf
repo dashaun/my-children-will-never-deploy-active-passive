@@ -1,6 +1,0 @@
-locals {
-  regions = [
-    "uksouth",
-    "canadacentral"
-  ]
-}

@@ -17,6 +17,8 @@ We have never done a game-day exercise.
 ```
 
 Notes:
+- I hear this all the time
+- I want to show you how easy this can be, later in the session
 - Chaos Engineering
 - Purposeful
 - Test the backups

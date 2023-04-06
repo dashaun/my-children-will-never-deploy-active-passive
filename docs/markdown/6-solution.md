@@ -16,7 +16,7 @@ Notes:
 
 ## Single
 
-- https://acre-bootiful.azuremicroservices.io/
+- https://centralus-bootiful.azuremicroservices.io/
 
 ---
 
@@ -26,11 +26,8 @@ Notes:
 
 ## Multi
 
-- https://centralus-centralus.azuremicroservices.io
-- https://eastus-eastus.azuremicroservices.io
-- https://westus2-westus2.azuremicroservices.io
-- https://southcentralus-southcentralus.azuremicroservices.io
-- https://eastus2-eastus2.azuremicroservices.io
+- https://centralus-bootiful.azuremicroservices.io
+- https://southcentralus-bootiful.azuremicroservices.io
 
 Notes:
 - Active-active ACRE
@@ -42,7 +39,7 @@ Notes:
 
 ## GLDNS
 
-- https://kcdc-frontdoor.azurefd.net
+- https://devnexus-frontdoor.azurefd.net
 
 ---
 
