@@ -16,7 +16,7 @@ Notes:
 
 ## Single
 
-- https://centralus-bootiful.azuremicroservices.io/
+- https://northeurope-bootiful.azuremicroservices.io/
 
 ---
 
@@ -28,12 +28,6 @@ Notes:
 
 - https://northeurope-bootiful.azuremicroservices.io
 - https://southcentralus-bootiful.azuremicroservices.io
-
-Notes:
-- Active-active ACRE
-- was between 2 regions
-- 233 days ago
-- Yesterday, I saw the API allows 5 regions
 
 ---
 
