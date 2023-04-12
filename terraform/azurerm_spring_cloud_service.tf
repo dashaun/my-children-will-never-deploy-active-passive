@@ -1,6 +1,6 @@
 resource "azurerm_spring_cloud_service" "location1" {
   name                     = var.location1
-  resource_group_name      = azurerm_resource_group.default.name
+  resource_group_name      = azurerm_resource_group.acre1.name
   location                 = var.location1
   service_registry_enabled = true
   sku_name                 = "E0"
@@ -15,7 +15,7 @@ resource "azurerm_spring_cloud_service" "location1" {
 
 resource "azurerm_spring_cloud_service" "location2" {
   name                     = var.location2
-  resource_group_name      = azurerm_resource_group.default.name
+  resource_group_name      = azurerm_resource_group.acre2.name
   location                 = var.location2
   service_registry_enabled = true
   sku_name                 = "E0"

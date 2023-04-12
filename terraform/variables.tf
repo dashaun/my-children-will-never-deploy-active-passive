@@ -37,7 +37,7 @@ variable "identifier" {
 
 variable "location1" {
   description = "The Azure location/region where the resources will be created."
-  default     = "centralus"
+  default     = "northeurope"
   type        = string
 }
 

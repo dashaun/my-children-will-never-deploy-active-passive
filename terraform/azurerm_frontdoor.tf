@@ -1,9 +1,9 @@
 resource "azurerm_frontdoor" "default" {
-  name                = "devnexus-frontdoor"
+  name                = "phillyete-frontdoor"
   resource_group_name = azurerm_resource_group.default.name
 
   routing_rule {
-    name               = "devnexus"
+    name               = "phillyete"
     accepted_protocols = ["Http", "Https"]
     patterns_to_match  = ["/*"]
     frontend_endpoints = ["exampleFrontendEndpoint1"]
@@ -19,19 +19,22 @@ resource "azurerm_frontdoor" "default" {
 
   backend_pool_health_probe {
     name = "exampleHealthProbeSetting1"
+    path = "/actuator/health"
+    protocol = "Https"
+    interval_in_seconds = 5
   }
 
   backend_pool {
     name = "exampleBackendBing"
     backend {
-      host_header = "centralus-bootiful.azuremicroservices.io"
-      address     = "centralus-bootiful.azuremicroservices.io"
+      host_header = "${var.location1}-bootiful.azuremicroservices.io"
+      address     = "${var.location1}-bootiful.azuremicroservices.io"
       http_port   = 80
       https_port  = 443
     }
     backend {
-      host_header = "southcentralus-bootiful.azuremicroservices.io"
-      address     = "southcentralus-bootiful.azuremicroservices.io"
+      host_header = "${var.location2}-bootiful.azuremicroservices.io"
+      address     = "${var.location2}-bootiful.azuremicroservices.io"
       http_port   = 80
       https_port  = 443
     }
@@ -42,13 +45,12 @@ resource "azurerm_frontdoor" "default" {
 
   frontend_endpoint {
     name      = "exampleFrontendEndpoint1"
-    host_name = "devnexus-frontdoor.azurefd.net"
+    host_name = "phillyete-frontdoor.azurefd.net"
   }
 
   backend_pool_settings {
     backend_pools_send_receive_timeout_seconds   = 0
     enforce_backend_pools_certificate_name_check = false
   }
-
-
+  
 }

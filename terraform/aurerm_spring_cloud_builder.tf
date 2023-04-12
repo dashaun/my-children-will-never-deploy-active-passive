@@ -15,7 +15,7 @@ resource "azurerm_spring_cloud_builder" "location1" {
 
 resource "azurerm_spring_cloud_builder" "location2" {
   name                    = var.location2
-  spring_cloud_service_id = azurerm_spring_cloud_service.location1.id
+  spring_cloud_service_id = azurerm_spring_cloud_service.location2.id
 
   build_pack_group {
     name           = "mix"

@@ -9,9 +9,8 @@ import org.testcontainers.utility.DockerImageName;
 @SpringBootTest
 class DemoApplicationTests {
 
-	// @Container
-	// public GenericContainer redis = new
-	// GenericContainer(DockerImageName.parse("redis:latest")).withExposedPorts(6379);
+	@Container
+	public GenericContainer redis = new GenericContainer(DockerImageName.parse("redis:latest")).withExposedPorts(6379);
 
 	@Test
 	void contextLoads() {
