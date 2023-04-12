@@ -17,8 +17,6 @@ Notes:
 
 ---
 
-```
-"My children will never deploy active-passive."
+![Spring Office Hours](images/spring-office-hours-blank.png)
 
-- DaShaun Carter
-```
+### SpringOfficeHours.io

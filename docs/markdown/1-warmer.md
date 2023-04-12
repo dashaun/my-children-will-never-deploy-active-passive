@@ -9,3 +9,11 @@ Notes:
 - Purposeful
 - Test the backups
 - Test the failover/failback
+
+---
+
+```
+"My children will never deploy active-passive."
+
+- DaShaun Carter
+```
