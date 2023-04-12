@@ -26,7 +26,7 @@ Notes:
 
 ## Multi
 
-- https://centralus-bootiful.azuremicroservices.io
+- https://northeurope-bootiful.azuremicroservices.io
 - https://southcentralus-bootiful.azuremicroservices.io
 
 Notes:
@@ -39,7 +39,7 @@ Notes:
 
 ## GLDNS
 
-- https://devnexus-frontdoor.azurefd.net
+- https://philly-frontdoor.azurefd.net
 
 ---
 
