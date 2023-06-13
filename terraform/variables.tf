@@ -18,6 +18,11 @@ variable "acre_eviction_policy" {
   default = "NoEviction"
 }
 
+variable "acre_group_nickname" {
+  type    = string
+  default = "kcjug"
+}
+
 variable "acre_sku" {
   type    = string
   default = "Enterprise_E10-2"
@@ -26,6 +31,12 @@ variable "acre_sku" {
 variable "cloud_name" {
   description = "The Azure cloud environment to use. Available values at https://www.terraform.io/docs/providers/azurerm/#environment"
   default     = "public"
+  type        = string
+}
+
+variable "front_door_name" {
+  description = "The name of the Azure Front Door to create."
+  default     = "kcjug"
   type        = string
 }
 

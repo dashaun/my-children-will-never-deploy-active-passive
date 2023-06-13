@@ -12,11 +12,12 @@ resource "azurerm_redis_enterprise_database" "location1" {
     "${azurerm_redis_enterprise_cluster.location2.id}/databases/default"
   ]
 
-  linked_database_group_nickname = "devnexus"
+  linked_database_group_nickname = var.acre_group_nickname
 
 }
 
 data "azurerm_redis_enterprise_database" "location2" {
-  name                = "default"
-  cluster_id          = azurerm_redis_enterprise_cluster.location2.id
+  depends_on = [azurerm_redis_enterprise_cluster.location2]
+  name       = "default"
+  cluster_id = azurerm_redis_enterprise_cluster.location2.id
 }

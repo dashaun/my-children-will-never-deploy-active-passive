@@ -4,11 +4,11 @@ output "resource_group_name" {
 }
 
 output "logs1" {
-  value = "az spring app logs -n bootiful -s ${azurerm_spring_cloud_service.location1.name} -g ${azurerm_resource_group.acre1.name} --lines 1000"
+  value = "az spring app logs -n ${var.identifier} -s ${azurerm_spring_cloud_service.location1.name} -g ${azurerm_resource_group.acre1.name} --lines 1000"
 }
 
 output "logs2" {
-  value = "az spring app logs -n bootiful -s ${azurerm_spring_cloud_service.location2.name} -g ${azurerm_resource_group.acre2.name} --lines 1000"
+  value = "az spring app logs -n ${var.identifier} -s ${azurerm_spring_cloud_service.location2.name} -g ${azurerm_resource_group.acre2.name} --lines 1000"
 }
 
 output "list_apps1" {
