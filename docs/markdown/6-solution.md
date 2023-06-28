@@ -45,4 +45,6 @@ Notes:
 
 ---
 
-"Hello, World with 99.999% uptime"
+### Enterprise Grade
+
+"Hello, World"
