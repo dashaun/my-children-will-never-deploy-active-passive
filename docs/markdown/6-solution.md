@@ -16,7 +16,7 @@ Notes:
 
 ## Single
 
-- https://northeurope-bootiful.azuremicroservices.io/
+- https://northeurope-s1tdetroit.azuremicroservices.io/
 
 ---
 
@@ -26,14 +26,14 @@ Notes:
 
 ## Multi
 
-- https://northeurope-bootiful.azuremicroservices.io
-- https://southcentralus-bootiful.azuremicroservices.io
+- https://northeurope-s1tdetroit.azuremicroservices.io
+- https://southcentralus-s1tdetroit.azuremicroservices.io
 
 ---
 
 ## GLDNS
 
-- https://philly-frontdoor.azurefd.net
+- https://s1tdetroit-frontdoor.azurefd.net
 
 ---
 

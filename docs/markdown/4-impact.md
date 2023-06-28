@@ -42,7 +42,7 @@ Notes:
 
 ---
 
-- Active-Active can improve capacity & resiliency 
+- Active-Active can improve capacity & reliability 
 - Without additional infrastructure expense <!-- .element: class="fragment" data-fragment-index="1" -->
 - If you are upgrading from active-passive <!-- .element: class="fragment" data-fragment-index="2" -->
 

@@ -88,6 +88,18 @@ Notes:
 
 ---
 
+## Recap from Yesterday
+
+- Global Load Balancers
+- Firewalls
+- Circuit Breakers
+- Service Discovery
+- Cloud Config
+- Upgrades
+- Error Messages
+
+---
+
 ```
 "My children will never deploy active-passive."
 
