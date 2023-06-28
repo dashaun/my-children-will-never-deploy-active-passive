@@ -20,9 +20,9 @@ output "list_apps2" {
 }
 
 output "build_deploy1" {
-  value = "az spring app deploy -g ${azurerm_resource_group.acre1.name} -s ${azurerm_spring_cloud_service.location1.name} -n ${azurerm_spring_cloud_app.location1.name} --source-path ../ --build-env BP_JVM_VERSION=17"
+  value = "az spring app deploy -g ${azurerm_resource_group.acre1.name} -s ${azurerm_spring_cloud_service.location1.name} -n ${azurerm_spring_cloud_app.location1.name} --source-path ../spring --build-env BP_JVM_VERSION=17"
 }
 
 output "build_deploy2" {
-  value = "az spring app deploy -g ${azurerm_resource_group.acre2.name} -s ${azurerm_spring_cloud_service.location2.name} -n ${azurerm_spring_cloud_app.location2.name} --source-path ../ --build-env BP_JVM_VERSION=17"
+  value = "az spring app deploy -g ${azurerm_resource_group.acre2.name} -s ${azurerm_spring_cloud_service.location2.name} -n ${azurerm_spring_cloud_app.location2.name} --source-path ../spring --build-env BP_JVM_VERSION=17"
 }

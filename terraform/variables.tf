@@ -20,7 +20,7 @@ variable "acre_eviction_policy" {
 
 variable "acre_group_nickname" {
   type    = string
-  default = "kcjug"
+  default = "s1tdetroit"
 }
 
 variable "acre_sku" {
