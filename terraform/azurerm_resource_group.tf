@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "default" {
   name     = random_string.resource_group_name.result
-  location = var.location1
+  location = var.location0
 }
 
 resource "azurerm_resource_group" "acre1" {

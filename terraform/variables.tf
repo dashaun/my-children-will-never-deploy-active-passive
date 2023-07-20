@@ -20,7 +20,7 @@ variable "acre_eviction_policy" {
 
 variable "acre_group_nickname" {
   type    = string
-  default = "s1tdetroit"
+  default = "kcjug"
 }
 
 variable "acre_sku" {
@@ -43,6 +43,12 @@ variable "front_door_name" {
 variable "identifier" {
   description = "The identifier to use for this deployment."
   default     = "bootiful"
+  type        = string
+}
+
+variable "location0" {
+  description = "The Azure location/region where the resources will be created."
+  default     = "centralus"
   type        = string
 }
 
