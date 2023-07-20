@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Set;
@@ -30,7 +30,7 @@ class HelloController {
 		this.redis = redis;
 	}
 
-	@RequestMapping("/")
+	@GetMapping("/")
 	public String index() {
 		String time = String.valueOf(System.currentTimeMillis());
 		String key = region + ":" + time;
@@ -38,7 +38,7 @@ class HelloController {
 		return key;
 	}
 
-	@RequestMapping("/list")
+	@GetMapping("/list")
 	public Set<String> list() {
 		return redis.keys("*");
 	}

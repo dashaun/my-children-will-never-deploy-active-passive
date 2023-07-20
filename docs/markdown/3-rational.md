@@ -65,7 +65,13 @@ Notes:
 
 ---
 
-- "Brilliant!" <!-- .element: class="fragment" data-fragment-index="1" -->
+<img src="images/strategies.jpg" alt="Family" width="400"/>
+
+[Govardhana on LinkedIn](https://www.linkedin.com/posts/govardhana-miriyala-kannaiah_gopuwrites-cloud-disasterrecovery-activity-7087419563142758401-jd_Q?utm_source=share&utm_medium=member_desktop)
+
+---
+
+- "Brilliant!"
 - "This solves all of our problems!" <!-- .element: class="fragment" data-fragment-index="2" -->
 - "It only costs twice as much for infrastructure!" <!-- .element: class="fragment" data-fragment-index="3" -->
 - "Make it happen!" <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -85,23 +91,3 @@ Notes:
 - Retry loops working
 - We can do better
 - You can do better
-
----
-
-## Recap from Yesterday
-
-- Global Load Balancers
-- Firewalls
-- Circuit Breakers
-- Service Discovery
-- Cloud Config
-- Upgrades
-- Error Messages
-
----
-
-```
-"My children will never deploy active-passive."
-
-- DaShaun Carter
-```

@@ -42,12 +42,6 @@ Notes:
 
 ---
 
-- Active-Active can improve capacity & reliability 
-- Without additional infrastructure expense <!-- .element: class="fragment" data-fragment-index="1" -->
-- If you are upgrading from active-passive <!-- .element: class="fragment" data-fragment-index="2" -->
-
----
-
 ```markdown
 Raise your hand
 if you like spending money
@@ -56,4 +50,6 @@ on infrastructure that isn't being used
 
 ---
 
-![better-way](images/better.png)
+- Active-Active can improve capacity & reliability 
+- Without additional infrastructure expense, <!-- .element: class="fragment" data-fragment-index="1" -->
+- if you are upgrading from active-passive. <!-- .element: class="fragment" data-fragment-index="1" -->

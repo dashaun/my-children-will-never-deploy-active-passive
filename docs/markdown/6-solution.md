@@ -16,7 +16,7 @@ Notes:
 
 ## Single
 
-- https://northeurope-s1tdetroit.azuremicroservices.io/
+- https://northeurope-kcjug.azuremicroservices.io/
 
 ---
 
@@ -26,14 +26,14 @@ Notes:
 
 ## Multi
 
-- https://northeurope-s1tdetroit.azuremicroservices.io
-- https://southcentralus-s1tdetroit.azuremicroservices.io
+- https://northeurope-kcjug.azuremicroservices.io
+- https://southcentralus-kcjug.azuremicroservices.io
 
 ---
 
 ## GLDNS
 
-- https://s1tdetroit-frontdoor.azurefd.net
+- https://kcjug.azurefd.net
 
 ---
 

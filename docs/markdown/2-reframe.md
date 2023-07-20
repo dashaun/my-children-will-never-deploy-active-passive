@@ -32,7 +32,7 @@ Latency is the new downtime.
 ---
 
 ## Resilience > Robustness
-## Resilience --> Reliability
+## Resilience ---> Reliability
 
 Notes:
 - Even taking updates
